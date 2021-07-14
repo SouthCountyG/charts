@@ -3,12 +3,12 @@ entries:
   rancher-demo:
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2021-07-14T01:13:27.8543677-04:00"
+    created: "2021-07-14T03:25:40.7860835-04:00"
     description: Chart for the Rancher demo application
-    digest: 108da569f913627be7fd5cf58df1d54e938fa20f64dc4c654fe32633909e50b6
+    digest: 796b65e585edcf8539e06953ccffa56d325eba3d50921cca68ba1e7bcdcdb843
     name: rancher-demo
     type: application
     urls:
-    - assets/rancher-demo-0.1.0.tgz
-    version: 0.1.0
-generated: "2021-07-14T01:13:27.8532317-04:00"
+    - assets/rancher-demo-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-07-14T03:25:40.785086-04:00"
