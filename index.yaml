@@ -1,14 +1,14 @@
 apiVersion: v1
 entries:
-  example:
+  rancher-demo:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2021-07-12T17:37:08.425556-04:00"
-    description: A Helm chart for Kubernetes
-    digest: 216e8548430f3fb583d571a638155d9d8d0ab3bf7d1761aceca718d6c72e682a
-    name: example
+    appVersion: 0.5.0
+    created: "2021-07-14T00:14:50.7944416-04:00"
+    description: Chart for the Rancher demo application
+    digest: 61094c2d9d321843852b7af07e900fbc45a3fe67312a07b712f27436cd4f8048
+    name: rancher-demo
     type: application
     urls:
-    - assets/example-0.1.0.tgz
+    - assets/rancher-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2021-07-12T17:37:08.4241424-04:00"
+generated: "2021-07-14T00:14:50.7896795-04:00"

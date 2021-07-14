@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "example.fullname" . }}
+  name: {{ include "rancher-demo.fullname" . }}
   labels:
-    {{- include "example.labels" . | nindent 4 }}
+    {{- include "rancher-demo.labels" . | nindent 4 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
   selector:
     matchLabels:
-      {{- include "example.selectorLabels" . | nindent 6 }}
+      {{- include "rancher-demo.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       {{- with .Values.podAnnotations }}
@@ -18,13 +18,13 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        {{- include "example.selectorLabels" . | nindent 8 }}
+        {{- include "rancher-demo.selectorLabels" . | nindent 8 }}
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-      serviceAccountName: {{ include "example.serviceAccountName" . }}
+      serviceAccountName: {{ include "rancher-demo.serviceAccountName" . }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
