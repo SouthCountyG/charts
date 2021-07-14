@@ -37,7 +37,7 @@ spec:
           {{- include "helpers.list-env-variables" . | indent 10 }}   
           ports:
             - name: http
-              containerPort: 80
+              containerPort: 8080
               protocol: TCP
           livenessProbe:
             httpGet:
