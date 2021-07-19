@@ -42,10 +42,10 @@ ingress:
     # pink
     # black
 env:
-  TITLE: "Rancher Government Solutions Demo"
+  TITLE: 'Rancher Government Solutions Demo'
   SHOW_VERSION: false
-  METADATA: "Deployed via Fleet"
-  COW_COLOR: "blue"
+  METADATA: 'Deployed via Fleet'
+  COW_COLOR: 'blue'
 
 
 
