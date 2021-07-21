@@ -1,7 +1,7 @@
 replicaCount: 3
 
 image:
-  repository: powerninjas/rancher-demo
+  repository: bgulla/rancher-demo
   pullPolicy: IfNotPresent
   tag: "latest"
 
