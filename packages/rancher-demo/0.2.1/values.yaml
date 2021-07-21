@@ -81,8 +81,8 @@ tls: []
 
 resources:
   requests:
-    cpu: 2m
-    memory: 8Mi
+    cpu: 5m
+    memory: 10Mi
 
 autoscaling:
   enabled: false
